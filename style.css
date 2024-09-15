@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#main{
+    display: flex;
+
+}
+.sidebar{
+    width: 20%;
+    min-width: 180px;
+    height: 100vh;
+    border-right: 1px solid black;
+    box-shadow: 0px 0px 3px black;
+
+}
+.insta_logo{
+    margin: 40px 30px;
+}
+.options{
+    margin-left:20px ;
+}
+.options>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.options>ul>li{
+    list-style-type: none;
+}
+.options>ul>li>img{
+    margin-right: 10px;
+}
+
+
+
+
+.scrollable_page{
+    padding:50px 20px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+    
+}
+.story_section{
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 50px;
+  
+}
+.story_img{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.story_img>p{
+font-size: 13px;
+font-weight:500;
+line-height: 16px;
+letter-spacing: 0.11999999731779099px;
+text-align: center;
+
+}
+#seen_story>p{
+    color: #8E8E8E;
+}
+
+
+#feed{
+    width: 50%;
+    margin-left: 8%;
+
+}.page{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+}   
+.dots{
+    padding: 10px;
+
+}
+.time{
+    color:#8E8E8E;
+    margin-left: 7px;
+}
+.id{
+margin-left: 7px;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+text-align: center;
+
+}
+.post_img>img{
+    width: 100%;
+}
+.reactions{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}.reactions>div>img{
+     padding: 5px;
+     padding-left: 0px;
+}
+.description{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+
+    
+}.comment{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+#post_2>img{
+ border-radius: 50%;
+}
+.sug_header{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+    color: #8E8E8E;
+}
+.sug_header>p>a{
+    text-decoration: none;
+    color: #0095F6;
+}.profile{
+    width: 174px;
+    height: 200px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-right: 10px;
+}.profile_pic>img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}.follow_btn{
+    background: #0095F6;
+    border: none;
+    border-radius: 4px;
+    width: 85px;
+    height: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    
+}.close_btn{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #8E8E8E;
+    cursor: pointer;
+}.profiles{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    padding-bottom: 45px;
+    margin-bottom: 20px;
+}#post_3>img{
+    border-radius: 50%;
+}
+
+
+#footer{
+    width: 351px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.footer_img{
+    display: flex;
+    gap: 18px;
+    align-items: center; 
+    text-align: center;
+}.footer_img>img{
+    border-radius:50%;
+
+}.footer_top>a{
+    text-decoration: none;
+    padding-right: 2px;
+    color:#0095F6 ;
+    font-weight: 500;
+}
+#suggestions{
+    padding: 5px;
+}#suggestions>p>a{
+    color: black;
+    font-weight: 500;
+}.suggested_accounts{
+    margin-top:10px ;
+}
+.account{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}.account>div>a{
+    text-decoration: none;
+    padding-right: 5px;
+    color:#0095F6 ;
+    font-weight: 500;
+}.acc_dp{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}.footer_bottom>a{
+  font-size: 12px;  
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+text-decoration: none;
+color: #C7C7C7;
+padding-right:2px;
+
+}
+.copyright{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #C7C7C7;
+padding-top:30px ;
+
+
+}
+@media screen and (max-width:1100px){
+    #footer{
+        display: none;
+    }
+}
